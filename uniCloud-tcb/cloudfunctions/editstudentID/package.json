@@ -1,0 +1,7 @@
+{
+  "name": "editstudentID",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "storenote",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

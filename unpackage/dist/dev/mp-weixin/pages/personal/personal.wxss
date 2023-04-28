@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.title {
+  text-align: center;
+  display: block;
+  padding: 50rpx 35rpx 38rpx 35rpx;
+  font-size: 32rpx;
+  font-weight: bolder;
+  color: black;
+}
+.text {
+  font-size: 12px;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.menu {
+  height: 100%;
+  background-color: white;
+}
+.con {
+  font-size: 28rpx;
+  font-weight: bolder;
+  color: black;
+  margin-left: 10px;
+}
+

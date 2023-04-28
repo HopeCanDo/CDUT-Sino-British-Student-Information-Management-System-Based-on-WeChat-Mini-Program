@@ -1,0 +1,7 @@
+{
+  "name": "editemail",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  background-image: linear-gradient(208deg, #f3f3dc 10%, #cacaff 20%, #f8f6df 50%);
+}
+.container {
+  height: 100%;
+  width: 100%;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  justify-content: center;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.name {
+  margin-top: 5px;
+  font-size: 20px;
+}
+.shui {
+  width: 100%;
+  mix-blend-mode: screen;
+  height: 25px;
+}
+.menu {
+  height: 100%;
+  background-color: white;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+.text {
+  font-size: 12px;
+}
+button {
+  width: 100%;
+  background-color: white;
+}
+

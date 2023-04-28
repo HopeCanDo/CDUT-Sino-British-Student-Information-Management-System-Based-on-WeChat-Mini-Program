@@ -1,0 +1,160 @@
+{
+	"lazyCodeLoading": "requiredComponents",
+	"pages": [{
+			"path": "pages/home/home",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/note/note",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/userInfo/userInfo",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "User"
+			}
+
+		}, {
+			"path": "pages/schedule/schedule",
+			"style": {
+				"navigationBarTitleText": "Schedule",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/map/map",
+			"style": {
+				"navigationBarTitleText": "Map",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "About",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/translates/translate",
+			"style": {
+				"navigationBarTitleText": "Translate",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/grades/grades",
+			"style": {
+				"navigationBarTitleText": "Grades",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/addnote/addnote",
+			"style": {
+				"navigationBarTitleText": "Add Note",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/editnote/editnote",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/addgrade/addgrade",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/editgrade/editgrade",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/addschedule/addschedule",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Add schedule",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/editschedule/editschedule",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "CDUT Sino-British",
+		"navigationBarBackgroundColor": "#00FA9A",
+		"backgroundColor": "#00FA9A",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "Home",
+				"iconPath": "static/tab/homepage.png",
+				"selectedIconPath": "static/tab/homepage_fill.png"
+			},
+			{
+				"pagePath": "pages/note/note",
+				"text": "Personal Notes",
+				"iconPath": "static/tab/note-text.png",
+				"selectedIconPath": "static/tab/bxs-note.png"
+			},
+			{
+				"pagePath": "pages/userInfo/userInfo",
+				"text": "User",
+				"iconPath": "static/tab/user.png",
+				"selectedIconPath": "static/tab/user_fill.png"
+			}
+		]
+	}
+}

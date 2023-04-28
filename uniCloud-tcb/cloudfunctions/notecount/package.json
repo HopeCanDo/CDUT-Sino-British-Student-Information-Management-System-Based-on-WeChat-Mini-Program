@@ -1,0 +1,7 @@
+{
+  "name": "notecount",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

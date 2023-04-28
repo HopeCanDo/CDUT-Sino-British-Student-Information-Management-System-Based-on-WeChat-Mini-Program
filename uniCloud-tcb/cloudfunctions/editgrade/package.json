@@ -1,0 +1,7 @@
+{
+  "name": "editgrade",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

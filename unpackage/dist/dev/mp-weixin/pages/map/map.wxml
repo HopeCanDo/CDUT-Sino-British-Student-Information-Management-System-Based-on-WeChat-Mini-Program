@@ -1,0 +1,1 @@
+<view><map style="width:100vw;height:100vh;" latitude="{{latitude}}" longitude="{{longitude}}" scale="{{scale}}" circles="{{circles}}" markers="{{markers}}"></map></view>

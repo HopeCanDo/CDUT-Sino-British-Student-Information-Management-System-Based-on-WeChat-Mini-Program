@@ -1,0 +1,7 @@
+{
+  "name": "edittelephone",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

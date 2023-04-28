@@ -1,0 +1,7 @@
+{
+  "name": "deletenode",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

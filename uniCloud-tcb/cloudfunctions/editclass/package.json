@@ -1,0 +1,7 @@
+{
+  "name": "editclass",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

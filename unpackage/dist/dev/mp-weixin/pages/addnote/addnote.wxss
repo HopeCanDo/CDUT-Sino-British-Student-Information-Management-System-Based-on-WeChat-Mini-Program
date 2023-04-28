@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.container {
+  padding: 30rpx;
+}
+.text {
+  background-color: #d0d0d0;
+  width: 100%;
+  min-height: 500rpx;
+}
+

@@ -1,0 +1,7 @@
+{
+  "name": "gratecount",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

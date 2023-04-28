@@ -1,0 +1,60 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"subject":{
+			"bsonType": "string",
+			"description": "subject"
+		},
+		"user_name":{
+			"bsonType": "string",
+			"description": "Corresponding user"
+		},
+		"teacher":{
+			"bsonType": "string",
+			"description": "Corresponding teacher"
+		},
+		"classroom":{
+			"bsonType": "string",
+			"description": "Corresponding teacher"
+		},
+		"day":{
+			"bsonType": "string",
+			"description": "Days of the week"
+		},
+		"time":{
+			"bsonType": "string",
+			"description": "Time period"
+		},
+		"Monday":{
+			"bsonType":"bool",
+			"description": "Monday"
+		},
+		"Tuesday":{
+			"bsonType":"bool",
+			"description": "Tuesday"
+		},
+		"Wednesday":{
+			"bsonType":"bool",
+			"description": "Wednesday"
+		},
+		"Thursday":{
+			"bsonType":"bool",
+			"description": "Thursday"
+		},
+		"Friday":{
+			"bsonType":"bool",
+			"description": "Friday"
+		}
+	}
+}

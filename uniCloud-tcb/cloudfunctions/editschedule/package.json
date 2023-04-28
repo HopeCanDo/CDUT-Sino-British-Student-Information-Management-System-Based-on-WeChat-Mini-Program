@@ -1,0 +1,7 @@
+{
+  "name": "editschedule",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

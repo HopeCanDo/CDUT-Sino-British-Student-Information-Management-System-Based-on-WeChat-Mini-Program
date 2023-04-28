@@ -1,0 +1,1 @@
+<view class="content"><image class="bg-image" mode="scaleToFill" show-menu-by-longpress="{{true}}" src="/static/aboutpage.jpg"></image></view>

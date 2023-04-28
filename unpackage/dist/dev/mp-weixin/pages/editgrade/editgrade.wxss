@@ -1,0 +1,21 @@
+
+.container {
+	padding: 30rpx;
+}
+.text {
+	background-color: #d0d0d0;
+	width: 100%;
+	min-height: 500rpx;
+}
+.title {
+	text-align: center;
+	display: block;
+	padding: 50rpx 35rpx 38rpx 35rpx;
+	font-size: 32rpx;
+	font-weight: bolder;
+	color: black;
+}
+.input{
+	border: solid 1rpx gray;
+}
+

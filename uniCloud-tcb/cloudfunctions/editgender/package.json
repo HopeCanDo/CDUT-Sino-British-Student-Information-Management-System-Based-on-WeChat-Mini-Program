@@ -1,0 +1,7 @@
+{
+  "name": "editgender",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

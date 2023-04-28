@@ -1,0 +1,7 @@
+{
+  "name": "editnote",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

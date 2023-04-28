@@ -1,0 +1,7 @@
+{
+  "name": "getnoteById",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

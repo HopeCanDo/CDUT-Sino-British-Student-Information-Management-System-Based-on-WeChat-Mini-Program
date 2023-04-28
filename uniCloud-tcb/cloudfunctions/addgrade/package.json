@@ -1,0 +1,7 @@
+{
+  "name": "addgrade",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
