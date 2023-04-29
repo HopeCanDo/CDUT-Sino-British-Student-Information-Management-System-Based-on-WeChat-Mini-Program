@@ -67,7 +67,7 @@
 							title:"Edit successfully!"
 						})
 						uni.redirectTo({
-							url:'/pages/grades/grades'
+							url:'	/grades/grades'
 						})
 					}
 				})

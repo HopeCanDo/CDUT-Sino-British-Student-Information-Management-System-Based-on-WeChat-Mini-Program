@@ -82,7 +82,7 @@
 						}
 					})
 					uni.redirectTo({
-						url: "../schedule/schedule"
+						url: "/pages/schedule/schedule"
 					})
 				} else if (uni.getStorageSync('user_name') && this.text3 == 'Tuesday') {
 					uniCloud.callFunction({

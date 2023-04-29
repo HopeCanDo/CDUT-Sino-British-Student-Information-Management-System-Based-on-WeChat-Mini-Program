@@ -1,9 +1,9 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/personal/personal"],{
 
 /***/ 111:
-/*!************************************************************************************************************************!*\
-  !*** D:/L6-1/L6-1/CDUT Sino-British Student Information System/Project/main.js?{"page":"pages%2Fpersonal%2Fpersonal"} ***!
-  \************************************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/L6-1/L6-1/FinalProject/Project/main.js?{"page":"pages%2Fpersonal%2Fpersonal"} ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23,9 +23,9 @@ createPage(_personal.default);
 /***/ }),
 
 /***/ 112:
-/*!*****************************************************************************************************!*\
-  !*** D:/L6-1/L6-1/CDUT Sino-British Student Information System/Project/pages/personal/personal.vue ***!
-  \*****************************************************************************************************/
+/*!*********************************************************************!*\
+  !*** D:/L6-1/L6-1/FinalProject/Project/pages/personal/personal.vue ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -64,9 +64,9 @@ component.options.__file = "pages/personal/personal.vue"
 /***/ }),
 
 /***/ 113:
-/*!************************************************************************************************************************************!*\
-  !*** D:/L6-1/L6-1/CDUT Sino-British Student Information System/Project/pages/personal/personal.vue?vue&type=template&id=3df0de86& ***!
-  \************************************************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** D:/L6-1/L6-1/FinalProject/Project/pages/personal/personal.vue?vue&type=template&id=3df0de86& ***!
+  \****************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -86,9 +86,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 114:
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/L6-1/L6-1/CDUT Sino-British Student Information System/Project/pages/personal/personal.vue?vue&type=template&id=3df0de86& ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/L6-1/L6-1/FinalProject/Project/pages/personal/personal.vue?vue&type=template&id=3df0de86& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -113,9 +113,9 @@ render._withStripped = true
 /***/ }),
 
 /***/ 115:
-/*!******************************************************************************************************************************!*\
-  !*** D:/L6-1/L6-1/CDUT Sino-British Student Information System/Project/pages/personal/personal.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/L6-1/L6-1/FinalProject/Project/pages/personal/personal.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -129,9 +129,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 116:
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/L6-1/L6-1/CDUT Sino-British Student Information System/Project/pages/personal/personal.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/L6-1/L6-1/FinalProject/Project/pages/personal/personal.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -236,7 +236,7 @@ var _default = {
                 console.log('--' + JSON.stringify(res));
                 if (res.result.updated > 0) {
                   uni.showToast({
-                    title: 'Edit successfully!'
+                    title: 'Successfully!'
                   });
                   that.getinfo();
                 } else {
@@ -286,7 +286,7 @@ var _default = {
                 console.log('--' + JSON.stringify(res));
                 if (res.result.updated > 0) {
                   uni.showToast({
-                    title: 'edit successfully!'
+                    title: 'Successfully!'
                   });
                   that.getinfo();
                 } else {
@@ -307,7 +307,7 @@ var _default = {
                 console.log('--' + JSON.stringify(res));
                 if (res.result.updated > 0) {
                   uni.showToast({
-                    title: 'edit successfully!'
+                    title: 'Successfully!'
                   });
                   that.getinfo();
                 } else {
@@ -339,7 +339,7 @@ var _default = {
                 console.log('--' + JSON.stringify(res));
                 if (res.result.updated > 0) {
                   uni.showToast({
-                    title: 'Edit successfully!'
+                    title: 'Successfully!'
                   });
                   that.getinfo();
                 } else {
@@ -372,7 +372,7 @@ var _default = {
                 console.log('--' + JSON.stringify(res));
                 if (res.result.updated > 0) {
                   uni.showToast({
-                    title: 'Edit successfully!'
+                    title: 'Successfully!'
                   });
                   that.getinfo();
                 } else {
@@ -405,7 +405,7 @@ var _default = {
                 console.log('--' + JSON.stringify(res));
                 if (res.result.updated > 0) {
                   uni.showToast({
-                    title: 'Edit successfully!'
+                    title: 'Successfully!'
                   });
                   that.getinfo();
                 } else {
@@ -438,7 +438,7 @@ var _default = {
                 console.log('--' + JSON.stringify(res));
                 if (res.result.updated > 0) {
                   uni.showToast({
-                    title: 'Edit successfully!'
+                    title: 'Successfully!'
                   });
                   that.getinfo();
                 } else {
@@ -471,7 +471,7 @@ var _default = {
                 console.log('--' + JSON.stringify(res));
                 if (res.result.updated > 0) {
                   uni.showToast({
-                    title: 'Edit successfully!'
+                    title: 'Successfully!'
                   });
                   that.getinfo();
                 } else {
@@ -504,7 +504,7 @@ var _default = {
                 console.log('--' + JSON.stringify(res));
                 if (res.result.updated > 0) {
                   uni.showToast({
-                    title: 'Edit successfully!'
+                    title: 'Successfully!'
                   });
                   that.getinfo();
                 } else {
@@ -527,9 +527,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 117:
-/*!***************************************************************************************************************************************!*\
-  !*** D:/L6-1/L6-1/CDUT Sino-British Student Information System/Project/pages/personal/personal.vue?vue&type=style&index=0&lang=scss& ***!
-  \***************************************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** D:/L6-1/L6-1/FinalProject/Project/pages/personal/personal.vue?vue&type=style&index=0&lang=scss& ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -543,9 +543,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 118:
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-2!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/sass-loader/dist/cjs.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/L6-1/L6-1/CDUT Sino-British Student Information System/Project/pages/personal/personal.vue?vue&type=style&index=0&lang=scss& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-2!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/sass-loader/dist/cjs.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/L6-1/L6-1/FinalProject/Project/pages/personal/personal.vue?vue&type=style&index=0&lang=scss& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

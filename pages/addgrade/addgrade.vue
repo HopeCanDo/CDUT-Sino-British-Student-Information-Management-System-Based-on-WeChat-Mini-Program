@@ -66,8 +66,9 @@
 						}
 					})
 					uni.redirectTo({
-						url: "../grades/grades"
+						url: "/pages/grades/grades"
 					})
+					
 				}else{
 					uni.showToast({
 						title:'Please login!',

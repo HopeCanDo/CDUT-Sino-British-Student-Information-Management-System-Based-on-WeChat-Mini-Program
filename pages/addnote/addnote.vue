@@ -32,12 +32,11 @@
 				var nowdate = new Date();
 				var year = nowdate.getFullYear(),
 					month = nowdate.getMonth() + 1,
-					date = nowdate.getDate(),
-					time = nowdate.toLocaleTimeString();
-				return year + '-' + month + '-' + date + "-" + time;
+					date = nowdate.getDate()
+				return year + '-' + month + '-' + date;
 			},
 			save() {
-				if (uni.getStorageSync('use_name')) {
+				if (uni.getStorageSync('user_name')) {
 					uniCloud.callFunction({
 						name: 'storenote',
 						data: {
@@ -55,13 +54,13 @@
 							return;
 						}
 					})
-					uni.redirectTo({
-						url: "../note/note"
+					uni.switchTab({
+						url: '/pages/note/note'
 					})
-				}else{
+				} else {
 					uni.showToast({
-						title:'Please login!',
-						icon:'error'
+						title: 'Please login!',
+						icon: 'error'
 					})
 				}
 			}

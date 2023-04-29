@@ -96,10 +96,10 @@
 								uni.showToast({
 									title: 'Log out!'
 								})
+								uni.reLaunch({
+									url: '/pages/home/home'
+								})
 							}
-							uni.reLaunch({
-								url: '/pages/home/home'
-							})
 						}
 
 					})

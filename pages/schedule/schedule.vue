@@ -15,7 +15,7 @@
 		<view class="date">Tuesday</view>
 		<view class="center">
 			<view v-for="(item,index) in list">
-				<view class="kuai2" v-if="item.Tuesday">
+				<view class="kuai2" v-if="item.Tuesday" @longpress="opt(item._id)">
 					{{item.subject}}
 					{{item.teacher}}
 					{{item.classroom}}
@@ -26,7 +26,7 @@
 		<view class="date">Wednesday</view>
 		<view class="center">
 			<view v-for="(item,index) in list">
-				<view class="kuai2" v-if="item.Wednesday">
+				<view class="kuai2" v-if="item.Wednesday" @longpress="opt(item._id)">
 					{{item.subject}}
 					{{item.teacher}}
 					{{item.classroom}}
@@ -37,7 +37,7 @@
 		<view class="date">Thursday</view>
 		<view class="center">
 			<view v-for="(item,index) in list">
-				<view class="kuai2" v-if="item.Thursday">
+				<view class="kuai2" v-if="item.Thursday" @longpress="opt(item._id)">
 					{{item.subject}}
 					{{item.teacher}}
 					{{item.classroom}}
@@ -48,7 +48,7 @@
 		<view class="date">Friday</view>
 		<view class="center">
 			<view v-for="(item,index) in list">
-				<view class="kuai2" v-if="item.Friday">
+				<view class="kuai2" v-if="item.Friday" @longpress="opt(item._id)">
 					{{item.subject}}
 					{{item.teacher}}
 					{{item.classroom}}
@@ -85,7 +85,7 @@
 		},
 		methods: {
 			goto() {
-				uni.navigateTo({
+				uni.redirectTo({
 					url: '/pages/addschedule/addschedule'
 				})
 			},

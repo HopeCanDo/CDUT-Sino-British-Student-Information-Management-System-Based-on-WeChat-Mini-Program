@@ -44,7 +44,7 @@
 		},
 		methods: {
 			goto() {
-				uni.navigateTo({
+				uni.redirectTo({
 					url: '../addnote/addnote'
 				})
 			},

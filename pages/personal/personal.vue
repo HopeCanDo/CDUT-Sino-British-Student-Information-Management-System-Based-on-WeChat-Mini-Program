@@ -94,7 +94,7 @@
 										res));
 									if (res.result.updated > 0) {
 										uni.showToast({
-											title: 'Edit successfully!'
+											title: 'Successfully!'
 										})
 										that.getinfo()
 									} else {
@@ -144,7 +144,7 @@
 										res));
 									if (res.result.updated > 0) {
 										uni.showToast({
-											title: 'edit successfully!'
+											title: 'Successfully!'
 										})
 										that.getinfo();
 									} else {
@@ -166,7 +166,7 @@
 										res));
 									if (res.result.updated > 0) {
 										uni.showToast({
-											title: 'edit successfully!'
+											title: 'Successfully!'
 										})
 										that.getinfo();
 									} else {
@@ -199,7 +199,7 @@
 										res));
 									if (res.result.updated > 0) {
 										uni.showToast({
-											title: 'Edit successfully!'
+											title: 'Successfully!'
 										})
 										that.getinfo()
 									} else {
@@ -233,7 +233,7 @@
 										res));
 									if (res.result.updated > 0) {
 										uni.showToast({
-											title: 'Edit successfully!'
+											title: 'Successfully!'
 										})
 										that.getinfo()
 									} else {
@@ -267,7 +267,7 @@
 										res));
 									if (res.result.updated > 0) {
 										uni.showToast({
-											title: 'Edit successfully!'
+											title: 'Successfully!'
 										})
 										that.getinfo()
 									} else {
@@ -301,7 +301,7 @@
 										res));
 									if (res.result.updated > 0) {
 										uni.showToast({
-											title: 'Edit successfully!'
+											title: 'Successfully!'
 										})
 										that.getinfo()
 									} else {
@@ -335,7 +335,7 @@
 										res));
 									if (res.result.updated > 0) {
 										uni.showToast({
-											title: 'Edit successfully!'
+											title: 'Successfully!'
 										})
 										that.getinfo()
 									} else {
@@ -369,7 +369,7 @@
 										res));
 									if (res.result.updated > 0) {
 										uni.showToast({
-											title: 'Edit successfully!'
+											title: 'Successfully!'
 										})
 										that.getinfo()
 									} else {
